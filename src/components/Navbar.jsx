@@ -85,6 +85,7 @@ const Navbar = () => {
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
+          {/* need to add GitLab */}
         </ul>
       </div>
     </div>
