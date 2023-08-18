@@ -1,6 +1,5 @@
 import React from "react";
 import NPDBImg from "../assets/projects/NPDBImg.png";
-import WorkImg from "../assets/projects/workImg.jpeg";
 
 const Work = () => {
   return (
