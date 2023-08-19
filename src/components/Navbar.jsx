@@ -86,7 +86,7 @@ const Navbar = () => {
         <li className="py-4 text-3xl">
           <a
             className="flex justify-between items-center w-full text-gray-300"
-            href="https://github.com/bradcochi"
+            href="https://www.linkedin.com/in/brad-cochi/"
             target="_blank"
             rel="noopener noreferrer"
           >
