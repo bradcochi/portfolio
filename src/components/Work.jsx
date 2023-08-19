@@ -28,12 +28,20 @@ const Work = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://saramargs.gitlab.io/npdt/">
+                <a
+                  href="https://saramargs.gitlab.io/npdt/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#eaebed] text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://gitlab.com/saramargs/npdt">
+                <a
+                  href="https://gitlab.com/saramargs/npdt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#eaebed] text-gray-700 font-bold text-lg">
                     Code
                   </button>
