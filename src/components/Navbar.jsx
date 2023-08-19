@@ -63,27 +63,67 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-3xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-3xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-3xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-3xl">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-3xl">
+          <a
+            className="flex justify-between items-center w-full text-gray-300"
+            href="https://github.com/bradcochi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li className="py-4 text-3xl">
+          <a
+            className="flex justify-between items-center w-full text-gray-300"
+            href="https://docs.google.com/document/d/1NIh6wLXZUbtdGNBN_J33L0a28H9_5nH7budXHrZ2_Uo/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </li>
+        <li className="py-4 text-3xl">
+          <a
+            className="flex justify-between items-center w-full text-gray-300"
+            href="https://github.com/bradcochi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </li>
+        <li className="py-4 text-3xl">
+          <a
+            className="flex justify-between items-center w-full text-gray-300"
+            href="https://gitlab.com/bradcochi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitLab
+          </a>
+        </li>
+        <li className="py-4 text-3xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
