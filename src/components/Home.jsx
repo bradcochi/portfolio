@@ -16,9 +16,9 @@ const Home = () => {
         </h2>
         {/* Update the description in <p> tag to something personal */}
         <p className="text-[#a3bac3] py-4 max-w-700px">
-          I'm a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I'm focused on
-          building responsive full-stack web applications.
+          I'm a full-stack developer specializing in building exceptional
+          digital experiences. Currently, I'm focused on building responsive
+          full-stack web applications.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
