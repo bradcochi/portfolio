@@ -1,6 +1,7 @@
 import React from "react";
-import NPDBImg from "../assets/projects/NPDBImg.png";
+import NPDB from "../assets/projects/NPDB.png";
 import CHSAASeeding from "../assets/projects/CHSAASeeding.png";
+import Linky from "../assets/projects/Linky.png";
 
 const Work = () => {
   return (
@@ -20,7 +21,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${NPDBImg})` }}
+            style={{ backgroundImage: `url(${NPDB})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -67,6 +68,28 @@ const Work = () => {
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#eaebed] text-gray-700 font-bold text-lg">
                     Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Linky})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-[#eaebed] track-wider">
+                Linky
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://github.com/bradcochi/linktree-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#eaebed] text-gray-700 font-bold text-lg">
+                    Code
                   </button>
                 </a>
               </div>
