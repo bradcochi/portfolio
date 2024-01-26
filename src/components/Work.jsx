@@ -51,7 +51,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${NPDBImg})` }}
+            style={{ backgroundImage: `url(${CHSAASeeding})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -61,21 +61,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://saramargs.gitlab.io/npdt/"
+                  href="https://chsaanow.com/sports/2022/7/20/chsaa-postseason-seeding-index.aspx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#eaebed] text-gray-700 font-bold text-lg">
                     Demo
-                  </button>
-                </a>
-                <a
-                  href="https://gitlab.com/saramargs/npdt"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#eaebed] text-gray-700 font-bold text-lg">
-                    Code
                   </button>
                 </a>
               </div>
