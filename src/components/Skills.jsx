@@ -11,7 +11,7 @@ import Bootstrap from "../assets/bootstrap.png";
 import Mongo from "../assets/mongo.png";
 import PostgreSQL from "../assets/postgresql.png";
 import Docker from "../assets/docker.png";
-// import Redux from "../assets/redux.png";
+import Redux from "../assets/redux.png";
 import Prisma from "../assets/prisma.png";
 
 const Skills = () => {
@@ -90,10 +90,10 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Docker} alt="Docker icon" />
             <p className="my-4">DOCKER</p>
           </div>
-          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Redux} alt="Redux icon" />
             <p className="my-4">REDUX</p>
-          </div> */}
+          </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Prisma} alt="Prisma icon" />
             <p className="my-4">PRISMA</p>
