@@ -97,7 +97,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Redux} alt="Redux icon" />
-            <p className="my-4">REDUX</p>
+            <p className="mt-4">REDUX</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
