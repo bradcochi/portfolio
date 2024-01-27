@@ -14,6 +14,7 @@ import Docker from "../assets/docker.png";
 import Redux from "../assets/redux.png";
 import Prisma from "../assets/prisma.png";
 import MaterialUI from "../assets/materialui.png";
+import Shadcn from "../assets/shadcn.png";
 
 const Skills = () => {
   return (
@@ -106,6 +107,10 @@ const Skills = () => {
               alt="Material UI icon"
             />
             <p className="my-4">MATERIAL UI</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Shadcn} alt="Shadcn-ui icon" />
+            <p className="my-4">SHADCN-UI</p>
           </div>
         </div>
       </div>
